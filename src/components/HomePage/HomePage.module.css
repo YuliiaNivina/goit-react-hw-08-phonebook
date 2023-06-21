@@ -1,0 +1,50 @@
+.home{
+    width: 1200px;
+    height: 600px;
+    margin-right: auto;
+  margin-left: auto;
+  padding-top: 100px;
+    padding-right: 20px;
+  padding-left: 20px;
+    text-align: center;
+    
+    background-image: url('/src/images/black_and_white_screen_android-750x441.webp');
+    background-size: cover;
+    background-position: center;
+
+    animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes scale-in-center {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.home__text{
+font-size: 40px;
+color: rgb(192, 70, 26);
+
+animation: tracking-in-expand-fwd 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+animation-delay: 1s;
+}
+
+@keyframes tracking-in-expand-fwd {
+  0% {
+    letter-spacing: -0.5em;
+    transform: translateZ(-700px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0);
+    opacity: 1;
+  }
+}

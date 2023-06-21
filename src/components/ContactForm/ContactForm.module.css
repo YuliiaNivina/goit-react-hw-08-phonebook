@@ -7,6 +7,7 @@
 .contactLabel {
   display: grid;
   font-size: 20px;
+  font-weight: 500;
 }
 .contactInput {
   margin: 10px 0 10px;
@@ -15,6 +16,13 @@
 }
 .contactBtn {
   padding: 5px;
-  cursor: pointer;
+  padding: 10px;
   font-size: 16px;
+  font-weight: 700;
+}
+.contactBtn:hover{
+  background-color: rgba(192, 70, 26, 0.6);
+  /* color: rgb(192, 70, 26); */
+ border: 2px solid black;
+  cursor: pointer;
 }

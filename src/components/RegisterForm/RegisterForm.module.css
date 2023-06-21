@@ -1,0 +1,66 @@
+.form__box {
+  width: 1200px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url('/src/images/black_and_white_screen_android-750x441.webp');
+  background-size: cover;
+  background-position: center;
+
+  animation: scale-in-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes scale-in-center {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.form {
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.input{
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid rgb(192, 70, 26);
+  font-size: 14px;
+}
+
+.register__btn{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 700;
+ border: 1px solid black;
+  background-color: rgba(192, 70, 26, 0.6);
+}
+
+.register__btn:hover{
+  background-color: rgba(192, 70, 26, 0.6);
+  color: rgb(192, 70, 26);
+ border: 2px solid rgb(192, 70, 26);
+ background-color: transparent;
+  cursor: pointer;
+}

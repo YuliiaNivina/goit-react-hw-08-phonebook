@@ -1,0 +1,18 @@
+.navlink {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.navlink:not(:last-child) {
+  margin-right: 15px;
+}
+
+.navlink:hover {
+  text-decoration: underline;
+}
+
+/* .active {
+  color: rgb(192, 70, 26);
+} */
